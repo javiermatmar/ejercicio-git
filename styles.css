@@ -1,0 +1,30 @@
+@media (max-width: 723px) {
+    h1 {
+        font-size: 25px;
+    }
+    .titulaco {
+       font-size: 40px; 
+    }
+    form {
+        width: 80%;
+        margin: auto;
+    }
+    #borrar-todo {
+        width: 40%;
+    }
+}
+
+@media (max-width: 645px) {
+    h2 {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 615px) {
+    .contenedor-tareas {
+        flex-wrap: wrap;
+    }
+    #por-hacer, #completadas {
+        width: 100%;
+    }
+}
